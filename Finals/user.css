@@ -1,0 +1,212 @@
+body {
+
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("bck.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 10;
+    border-radius: 1%;
+    border-width: 8px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8);  
+}
+
+.header { 
+    
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8); 
+    border-width: 1px 1px 5px 1px;
+    border: 0px 0px 5px 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, .4); 
+    transition: ease-out 0.3s;
+}
+
+.header:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8); 
+    border-width: 1px 1px 5px 1px;
+    border: 0px 0px 5px 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-style: italic;
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(81, 81, 81, 0.504);
+    transition: ease-out 0.3s;
+}
+
+.top {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8); 
+    border-width: 1px 1px 5px 1px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, .4); 
+    transition: ease-out 0.3s;
+}
+
+.top:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8); 
+    border-width: 1px 1px 5px 1px;
+    border: 0px 0px 5px 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(81, 81, 81, 0.504);
+    transition: ease-out 0.3s;
+}
+
+.mainname {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.8); 
+    color: rgba(255, 255, 255, 0.8);
+    background-color:  rgba(0, 0, 0, .4); 
+    margin: 100px;
+    padding: 50px;
+    transition: ease-out 0.3s;
+}
+
+.name {
+    padding-right: 370px;
+    position: relative;
+    left: 200px;
+}
+.name h2 {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-size: 2em;
+    width: 600px;
+}
+
+.name h3 {
+    word-spacing: 5px;
+    letter-spacing: 5px;  
+}
+
+.mainname:hover {
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(81, 81, 81, 0.504);
+    transition: ease-out 0.3s;
+    transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+img {
+    border-style: double;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.8); 
+}
+
+
+.userinfo {
+    text-align: left;
+    margin: 0px 400px 0px 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+
+}
+.data {
+    padding: 5px;
+    margin: 50px 20px;
+    font-size: large;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    background-color:  rgba(0, 0, 0, .4); 
+    transition: ease-out 0.3s;
+    
+}
+
+.data:hover {
+    background-color:  rgba(81, 81, 81, 0.504);
+    color: rgb(255, 255, 255) ;
+    transition: ease-out 0.3s;
+    transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+
+.bot {
+    display: flex;
+    align-items: center; 
+    margin: 50px 0px;
+    padding: 50px;
+}
+
+.btn {
+    
+    background-color:  rgba(0, 0, 0, .4);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+    margin-right: 100px;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8);
+    transition: ease-out 0.3s;
+}    
+
+.btn:hover {
+    background-color:rgba(123, 123, 123, 0.8);
+    transition: ease-out 0.3s;
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.p {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    background-color:  rgba(0, 0, 0, .4); 
+    padding: 30px 40px;
+    transition: ease-out 0.2s;
+}
+
+.p:hover {
+    border-style: double;
+    border-radius: 10px;
+    border-width: 4px;
+    background-color:  rgba(81, 81, 81, 0.504);
+    color: rgb(255, 255, 255) ;
+    transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+ion-icon {
+    font-size: 40px;
+  }

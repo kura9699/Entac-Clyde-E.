@@ -1,0 +1,203 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINAL PROJECT</title>
+  <style>
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bck.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  font-family: sans-serif;
+  border-radius: 1%;
+    border-width: 8px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+.header { 
+  padding: 30px;
+    text-align: center;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-width: 1px 1px 5px 1px;
+    border: 0px 0px 5px 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, .4); 
+    transition: ease-out 0.3s;
+}
+
+.header:hover {
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-width: 1px 1px 5px 1px;
+    border: 0px 0px 5px 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-style: italic;
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(30, 30, 30, 0.504);
+    transition: ease-out 0.3s;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background-color: rgba(30, 30, 30, 0.507);
+  border: 5px double rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: rgba(30, 30, 30, 0.773);
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  transition: ease-out 0.3s;
+}
+
+.card-body {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  background: rgba(30, 30, 30, 0.773);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+  transition: ease-out 0.3s;
+  border: 5px double rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+.btn:hover {
+  color: #fff;
+  background: rgba(73, 72, 72, 0.773);
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-header:hover {
+  color: #fff;
+  background: rgba(73, 72, 72, 0.773);
+}
+.card-body:hover {
+  color: #fff;
+}
+.card:hover {
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <div class="header">
+        <h1>FINAL PROJECT</h1>
+    </div>
+</header>
+  <div class="container">
+    <div class="row">
+      <div class="card">
+        <div class="card-header">
+          <h1>ACTIVITY 2</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Second ACTIVITY : A simple HTML web page containing favorites websites and a simple table below.
+          </p>
+          <a href="My Second Activity (HTML).html" class="btn">Go to page</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>ACTIVITY 3</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Third ACTIVITY : A simple HTML web page containing favorites websites with CSS in the design.
+          </p>
+          <a href="Index.html" class="btn">Go to page</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>ACTIVITY 4</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Fourth ACTIVITY : A simple web site containing MENU and USER INFO web pages with CSS in design. 
+          </p>
+          <a href="menu.html" class="btn">Go to page</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>ACTIVITY 5</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Fifth ACTIVITY : A  simple web site containing FAMILY MENU and FAMILY INFO web pages with CSS in design.
+          </p>
+          <a href="family.html" class="btn">Go to page</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
